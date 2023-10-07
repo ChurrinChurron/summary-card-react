@@ -1,0 +1,16 @@
+body {
+
+    background: url(./assets/wave2.svg), url(./assets/wave1.svg);
+    background-repeat: no-repeat;
+    background-position: top center, bottom left;
+    background-size: contain, 13em;
+}
+
+@media screen and (width >= 1024px) {
+
+    body {
+
+        background-position: 0 -10em, bottom left;
+        background-size: contain, 20em;
+    }
+}
